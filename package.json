@@ -1,0 +1,15 @@
+{
+  "name": "acea-sas-backend",
+  "version": "1.0.0",
+  "description": "Backend API para ACEA SAS",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server-runner.cjs",
+    "dev": "node server-runner.cjs --watch"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.19.2"
+  }
+}
